@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                             android:layout_width="match_parent"
+                                             android:layout_height="wrap_content"
+                                             xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp">
+    <ImageView
+            android:layout_width="140dp"
+            android:layout_height="100dp"
+            android:id="@+id/img"
+            android:layout_margin="5dp"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/title"
+            android:text="43岁刘敏涛穿着一袭露背旗袍的她依旧美得耀眼，不愧是冻龄女神！"
+            android:layout_toRightOf="@id/img"
+            android:layout_alignTop="@id/img"/>
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/from"
+            android:text="dadang"
+            android:layout_toRightOf="@id/img"
+            android:layout_alignBottom="@id/img"
+            android:gravity="right"
+            android:paddingRight="15dp"/>
+
+</RelativeLayout>
